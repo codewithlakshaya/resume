@@ -1,0 +1,220 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lakshaya Sharma- Resume</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <style>
+        body {
+            font-family: 'Arial', sans-serif;
+            background-color: #f4f4f4;
+            color: #333;
+            line-height: 1.6;
+            padding: 0;
+            margin: 0;
+        }
+
+        .container {
+            max-width: 900px;
+            margin: 40px auto;
+            background: #fff;
+            padding: 20px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+
+        /* Header section */
+        header {
+            text-align: center;
+            padding-bottom: 20px;
+            border-bottom: 2px solid #333;
+        }
+
+        header h1 {
+            margin-bottom: 5px;
+            font-size: 36px;
+            font-weight: bold;
+            color: #2c3e50;
+        }
+
+        .contact-info {
+            font-size: 16px;
+            margin-top: 10px;
+        }
+
+        .contact-info span {
+            display: inline-block;
+            margin: 0 10px;
+        }
+
+        /* Section titles */
+        .section {
+            margin-bottom: 25px;
+        }
+
+        .section-title {
+            font-size: 22px;
+            font-weight: bold;
+            color: #2c3e50;
+            border-bottom: 2px solid #2c3e50;
+            padding-bottom: 5px;
+            margin-bottom: 10px;
+        }
+
+        /* Section content */
+        .section-content {
+            margin-left: 20px;
+        }
+
+        /* Work experience styling */
+        .job {
+            margin-bottom: 15px;
+        }
+
+        .job-title {
+            font-size: 18px;
+            font-weight: bold;
+            color: #34495e;
+        }
+
+        .company-name {
+            font-style: italic;
+            color: #7f8c8d;
+        }
+
+        .date {
+            font-size: 14px;
+            color: #95a5a6;
+        }
+
+        ul {
+            list-style-type: disc;
+            margin-left: 20px;
+        }
+
+        /* Education section */
+        .degree {
+            font-size: 18px;
+            font-weight: bold;
+            color: #34495e;
+        }
+
+        .institution {
+            font-style: italic;
+            color: #7f8c8d;
+        }
+
+        .skills ul {
+            display: flex;
+            flex-wrap: wrap;
+        }
+
+        .skills ul li {
+            background-color: #e74c3c;
+            color: #fff;
+            padding: 8px 15px;
+            margin: 5px;
+            border-radius: 5px;
+        }
+
+        /* Footer for certifications and projects */
+        footer {
+            text-align: center;
+            margin-top: 20px;
+            padding-top: 10px;
+            border-top: 1px solid #ccc;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <!-- Header Section -->
+        <header>
+            <h1>Lakshaya Sharma</h1>
+            <div class="contact-info">
+                <span><i class="fa-solid fa-envelope"></i>: Lakshayasharma2207@gmail.com</span>
+                <span><i class="fa-solid fa-phone"></i>: +91-9315733182</span>
+                <span><i class="fa-brands fa-instagram"></i>:-lakshaya1922</span>
+                <span><i class="fa-brands fa-linkedin"></i>: linkedin.com/in/LakshayaSharma</span>
+                
+            </div>
+        </header>
+
+        <!-- Summary Section -->
+        <section class="section">
+            <h2 class="section-title">Objective</h2>
+            <div class="section-content">
+                <p>
+                    Motivated and detail-oriented front-end developer with a strong foundation in web development, including HTML, CSS, JavaScript, and React. Eager to apply my knowledge and skills in a dynamic team environment to deliver high-quality user experiences.
+
+
+                </p>
+            </div>
+        </section>
+
+    
+
+        <!-- Education Section -->
+        <section class="section">
+            <h2 class="section-title">Education</h2>
+            <div class="section-content">
+                <p class="degree">B-Tech(CSE-IOT)</p>
+                <p class="institution">AKTU/Raj Kumar Goel Institute Of Technology</p>
+                <p class="date">Graduated: 2021-2025</p>
+            </div>
+        </section>
+
+        <!-- Skills Section -->
+        <section class="section skills">
+            <h2 class="section-title">Skills</h2>
+            <div class="section-content">
+                <ul>
+                    <li>Leadership Skills</li>
+                    <li>Management Skills</li>
+                    <li>Active Listening</li>
+                    <li>Adaptability</li>
+                    <li>TeamWork</li>
+                </ul>
+            </div>
+        </section>
+        <section class="section">
+            <h6 class="section-title">Technical skills</h6>
+            <div vlass="section-content">
+                <ul>
+                    <li>C/C++</li>
+                    <li>JAVA</li>
+                    <li>HTML/CSS</li>
+                    <li>Basics of PYTHON</li>
+
+                </ul>
+            </div>
+        </section>
+
+        <!-- Certifications Section -->
+        <section class="section">
+            <h2 class="section-title">Certifications</h2>
+            <div class="section-content">
+                <p>Programming in python - Meta</p>
+                <p>AI and ML- IBM SkillsBuild</p>
+                <p>Python with WT tools - Softpro India</p>
+            </div>
+        </section>
+
+        <!-- Projects Section -->
+        <section class="section">
+            <h2 class="section-title">Projects</h2>
+            <div class="section-content">
+                <p><strong>Cricket Alert Software</strong> - This software is used to fetch the real time data of a cricket match and gives pop up notifications to the user's device.</p>
+                <p><strong>Smart Weather Monitoring System</strong> - This is an hardware device that is used to fetch the real time temperature and gives information to the user</p>
+                <p><strong>Restaurant Management System</strong> - This is used to show the available seats and timing at the restaurant and used to connect user and management</p>
+                <p><strong>Registration Form</strong> - This is used to take the required data from the user and store it in the database using sql</p>
+            </div>
+        </section>
+
+        <!-- Footer -->
+        <footer>
+            <p>&copy; 2024 Your Name - All Rights Reserved</p>
+        </footer>
+    </div>
+</body>
+</html>
